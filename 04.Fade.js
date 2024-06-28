@@ -28,6 +28,15 @@ btn.appendChild(btnText);
 // Finally, Append Button To Page
 document.body.appendChild(btn);
 
+// Add Style For Button
+Object.assign(btn.style, {
+  padding: " 10px 20px",
+  backgroundColor: "#333",
+  color: "#fff",
+  borderRadius: "6px",
+  marginBottom: "10px",
+});
+
 // Create P Tag To Test Click And Other Events
 const p = document.createElement("p");
 // Create Text Node For P

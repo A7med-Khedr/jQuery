@@ -25,6 +25,15 @@ p.appendChild(pText);
 // Append P To The PAge
 document.body.appendChild(p);
 
+// Add Style For Button
+Object.assign(btn.style, {
+  padding: " 10px 20px",
+  backgroundColor: "#333",
+  color: "#fff",
+  borderRadius: "6px",
+  marginBottom: "10px",
+});
+
 // Start Test OF Events
 $(document).ready(() => {
   // Click Event
