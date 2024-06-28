@@ -2,8 +2,10 @@
 [1] Hide => Add Display: none And Hide ELement
 -- hide(speed, callback function)
 -- speed by default is 400ms
+
 [2] Show => Add Display: block And show ELement
 -- show(speed, callback function)
+
 [3] Toggle => It works once to show the element and once to hide it
 -- toggle(speed, callback function)
 */
