@@ -13,7 +13,6 @@ const div01 = document.createElement("div");
 const div02 = document.createElement("div");
 
 // Style Css Use Jquery
-
 $(div01).css({
   padding: "10px",
   "background-color": "#EEE",
