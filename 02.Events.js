@@ -8,18 +8,18 @@
 */
 
 // Create Button Tag To Test Events
-let btn = document.createElement("button");
+const btn = document.createElement("button");
 // Create Text Node For Button
-let btnText = document.createTextNode("click");
+const btnText = document.createTextNode("click");
 // Append Text To Button
 btn.appendChild(btnText);
 // Finally, Append Button To Page
 document.body.appendChild(btn);
 
 // Create P Tag To Test Click And Other Events
-let p = document.createElement("p");
+const p = document.createElement("p");
 // Create Text Node For P
-let pText = document.createTextNode("Click Event");
+const pText = document.createTextNode("Click Event");
 // Append Text To P
 p.appendChild(pText);
 // Append P To The PAge

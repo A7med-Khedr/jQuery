@@ -18,9 +18,9 @@ $ => //? The Main Character In jQuery To Select Element
 */
 
 // Create P To Test Jquery
-let myP = document.createElement("p");
+const myP = document.createElement("p");
 // And Create Text Node For p
-let pText = document.createTextNode("Test jQuery Syntax");
+const pText = document.createTextNode("Test jQuery Syntax");
 // Append Text To Paragraph
 myP.appendChild(pText);
 // And Append Paragraph To PAge

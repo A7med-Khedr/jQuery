@@ -11,29 +11,29 @@
 */
 
 // Create Button Tag To Test Events
-let btn = document.createElement("button");
+const btn = document.createElement("button");
 // Create Text Node For Button
-let btnText = document.createTextNode("click");
+const btnText = document.createTextNode("click");
 // Append Text To Button
 btn.appendChild(btnText);
 // Finally, Append Button To Page
 document.body.appendChild(btn);
 
 // Create P Tag To Test Click And Other Events
-let p = document.createElement("p");
+const p = document.createElement("p");
 p.style.color = "#F00";
 // Create Text Node For P
-let pText = document.createTextNode("Click Event");
+const pText = document.createTextNode("Click Event");
 // Append Text To P
 p.appendChild(pText);
 // Append P To The PAge
 document.body.appendChild(p);
 
 // Create Another Paragraph Tag To Test show Effect
-let p02 = document.createElement("p");
+const p02 = document.createElement("p");
 p02.style.color = "#00F";
 // Create Text Node For P
-let p02Text = document.createTextNode("Show Effect");
+const p02Text = document.createTextNode("Show Effect");
 // Append Text To P
 p02.appendChild(p02Text);
 
